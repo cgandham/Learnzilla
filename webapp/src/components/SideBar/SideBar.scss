@@ -1,0 +1,19 @@
+@import '../../styles/Utilities/variables';
+
+.sidebar {
+  position: fixed;
+  top: 54px;
+  bottom: 10px;
+  left: 5px;
+  z-index: 100;
+  padding: 48px 0 0;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+  width: 133px;
+  background-color: $theme-bg-color;
+  //border-color: $theme-border-color;
+}
+
+.sidebarLinks {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

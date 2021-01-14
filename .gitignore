@@ -1,0 +1,66 @@
+#editor files
+.vscode
+
+# ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+.eslintcache
+webapp/.eslintcache
+
+
+.DS_Store
+**/npm-cache
+/node_modules
+/tmp
+.idea/
+.idea/workspace.xml
+dist/docs/
+/dist
+loggedName.txt
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/.pnp
+.pnp.js
+*.log
+*.vscode
+*.idea
+dist/
+/dist
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

@@ -1,0 +1,16 @@
+
+@import "Utilities/variables";//Variables and Methods
+@import "Utilities/mixins";
+@import "Utilities/functions";
+
+//Layouts
+@import "Layouts/selectors.scss";
+@import "Layouts/circle.scss";
+
+//Modules
+@import "Modules/CourseCards.scss";
+@import "Modules/CourseGrades.scss";
+@import "Modules/profile.scss";
+@import "Modules/Sidebar.scss";
+@import "Modules/gradeCards.scss";
+@import "Modules/login.scss";

@@ -1,0 +1,41 @@
+.profile {
+    //width: 400px;
+    height: 400px;
+}
+
+.profile-work {
+    position: relative;
+    right: 255px;
+    top: 90px;
+    color: grey;
+}
+
+.pHeading{
+    font-size: xx-large;
+    color:darkgrey;
+    font-weight: bold;
+    
+}
+.profile-img{
+    border-radius: 25px;
+    position: absolute;
+    left: 100px;
+}
+
+.updatePassword{
+    
+    position: absolute;
+}
+
+.updateProfile{
+    
+    position: fixed;
+}
+
+.welcome {
+    color: cornsilk;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 16px;
+}

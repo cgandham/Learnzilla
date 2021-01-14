@@ -1,0 +1,30 @@
+@import '../Utilities/variables';
+
+.sidebar {
+  position: absolute;
+  top: 54px;
+  bottom: 10px;
+  left: 5px;
+  z-index: 100;
+  padding: 48px 0 0;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+  width: 150px;
+  background-color: $theme-bg-color;
+  border-color: $theme-border-color;
+}
+
+.sidebarLinks {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.navbar-fixed{
+  position: fixed;
+  background-color: $theme-bg-color;
+  border-color: $theme-border-color;
+}
+
+.navbar-inverse {
+  background-color: lightblue;
+  border-color: #080808;
+}
